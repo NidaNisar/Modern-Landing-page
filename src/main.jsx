@@ -10,4 +10,4 @@ createRoot(document.getElementById('root')).render(
   </StrictMode>,
 )
 
-// https://github.com/NidaNisar/Modern-Landing-page.git
+// git remote add origin https://github.com/NidaNisar/Modern-Landing-page.git
