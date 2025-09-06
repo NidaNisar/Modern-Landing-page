@@ -6,6 +6,7 @@ import Hero from "./components/hero/hero";
 import Header from "./components/header/Header";
 import Steps from "./components/steps/Steps";
 import About from "./components/about/About";
+import Brands from "./components/brand/Brands";
 export default function App() {
   return (
     <div>
@@ -13,6 +14,8 @@ export default function App() {
      <Hero/>
      <Steps/>
      <About/>
+     {/* coponenet */}
+     <Brands/>
     </div>
     
   );
