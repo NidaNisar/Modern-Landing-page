@@ -7,6 +7,8 @@ import Header from "./components/header/Header";
 import Steps from "./components/steps/Steps";
 import About from "./components/about/About";
 import Brands from "./components/brand/Brands";
+import Work from "./components/works/Work";
+import Stats from "./components/stats/Stats";
 export default function App() {
   return (
     <div>
@@ -16,6 +18,8 @@ export default function App() {
      <About/>
      {/* coponenet */}
      <Brands/>
+     <Work/>
+     <Stats/>
     </div>
     
   );
