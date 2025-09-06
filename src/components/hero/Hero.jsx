@@ -19,9 +19,9 @@ const Hero = () => {
                     </div>
                     </section>   
       </main>
-      <div className='h-[3000px]'>
+      {/* <div className='h-[3000px]'>
 
-      </div>
+      </div> */}
     </div>
   )
 }
