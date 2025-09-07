@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <div>
         <div>
-            <div className='container mx-auto mt-20 mb-35 flex flex-col gap-7'>
+            <div className='container mx-auto mt-20 mb-10 flex flex-col gap-7'>
                 <div className='text-center'>
                     <h1 className=' text-3xl sm:text-5xl'>Follow Our Projects</h1>
                 </div>

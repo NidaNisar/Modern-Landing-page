@@ -9,6 +9,7 @@ import About from "./components/about/About";
 import Brands from "./components/brand/Brands";
 import Work from "./components/works/Work";
 import Stats from "./components/stats/Stats";
+import News from "./components/news/News";
 export default function App() {
   return (
     <div>
@@ -20,6 +21,8 @@ export default function App() {
      <Brands/>
      <Work/>
      <Stats/>
+     <News/>
+
     </div>
     
   );
