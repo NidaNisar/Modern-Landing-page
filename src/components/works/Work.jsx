@@ -18,7 +18,7 @@ const Work = () => {
       <div className='container mx-auto mt-20  grid grid-cols-1 lg:grid lg:grid-cols-2 lg:place-items-center  lg:justify-between'>
         <div className=' mb-15 flex flex-col  items-center '> 
         <div >
-            <img src='/landingpics/work/01.png' className='ml-4  sm:w-[450px] w-[365px] mr-4'/>
+            <img src='/landingpics/work/01.png' className='ml-4  sm:w-[450px] w-[330px] mr-4'/>
         </div>
         <div className='lg:flex lg:flex-row lg:mt-10 lg:justify-between flex flex-row  mt-10 gap-10   '>
             <div className='ml-5'>
@@ -31,7 +31,7 @@ const Work = () => {
         </div>
          <div className='flex flex-col  items-center mb-15' > 
         <div>
-            <img src='/landingpics/work/02.png' className='ml-4  sm:w-[450px] w-[365px] mr-4'/>
+            <img src='/landingpics/work/02.png' className='ml-4  sm:w-[450px] w-[330px] mr-4'/>
         </div >
         <div className='lg:flex lg:flex-row lg:mt-10 lg:justify-between flex flex-row  mt-10 gap-10   '>
             <div className='ml-5'>
@@ -44,7 +44,7 @@ const Work = () => {
         </div>
          <div className='flex flex-col  items-center mb-15' > 
         <div>
-            <img src='/landingpics/work/03.png' className='ml-4 sm:w-[450px] w-[365px] mr-4'/>
+            <img src='/landingpics/work/03.png' className='ml-4 sm:w-[450px] w-[330px] mr-4'/>
         </div>
         <div className='lg:flex lg:flex-row lg:mt-10 lg:justify-between flex flex-row  mt-10 gap-10   '>
             <div className='ml-5'>
@@ -57,7 +57,7 @@ const Work = () => {
         </div>
          <div className='flex flex-col  items-center mb-15'  > 
         <div>
-            <img src='/landingpics/work/04.png' className='ml-4 sm:w-[450px] w-[365px] mr-4'/>
+            <img src='/landingpics/work/04.png' className='ml-4 sm:w-[450px] w-[330px] mr-4'/>
         </div>
         <div className='lg:flex lg:flex-row lg:mt-10 lg:justify-between flex flex-row  mt-10 gap-10   '>
             <div className='ml-5'>

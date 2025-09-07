@@ -5,7 +5,7 @@ const About = () => {
     <div>
         <div className='container mx-auto mt-35 flex flex-col sm:flex-row gap-30'>
             <div>
-                <img src='/landingpics/about/img.png ' className='flex justify-center h-[550px] w-[340px] sm:w-[500px]  sm:h-[626px] ml-8'/>
+                <img src='/landingpics/about/img.png ' className='flex justify-center items-center h-[550px] w-[330px] sm:w-[500px]  sm:h-[626px] ml-8'/>
             </div>
             <div className='flex flex-col gap-8  xl:mt-15'>
                 <h1 className=' mx-auto sm:text-center text-4xl w-[300px] xl:text-6xl xl:w-[650px]'>We Create The Art Of Stylish Living Stylishly</h1>
