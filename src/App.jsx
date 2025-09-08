@@ -12,6 +12,7 @@ import Stats from "./components/stats/Stats";
 import News from "./components/news/News";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import Testimonal from "./components/testimonal/Testimonal";
 export default function App() {
   return (
     <div>
@@ -19,13 +20,14 @@ export default function App() {
      <Hero/>
      <Steps/>
      <About/>
-     {/* coponenet */}
+     <Testimonal/>
      <Brands/>
      <Work/>
      <Stats/>
      <News/>
      <Contact/>
      <Footer/>
+
     </div>
     
   );
