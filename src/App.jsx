@@ -11,6 +11,7 @@ import Work from "./components/works/Work";
 import Stats from "./components/stats/Stats";
 import News from "./components/news/News";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 export default function App() {
   return (
     <div>
@@ -24,6 +25,7 @@ export default function App() {
      <Stats/>
      <News/>
      <Contact/>
+     <Footer/>
     </div>
     
   );
