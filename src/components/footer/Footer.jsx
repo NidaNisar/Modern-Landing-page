@@ -20,9 +20,9 @@ const Footer = () => {
             </div>
           </div>
           <div className='lg:flex lg:flex-row  lg:justify-between lg:gap-[70px] justify-center  mt-5 flex flex-col gap-5 '>
-          <div className='flex flex-col  items-center '>
+          <div className='flex flex-col  items-center  gap-5'>
             <h3 >Pages</h3>
-            <ul className='flex flex-col  items-center'>
+            <ul className='flex flex-col  items-center text-xl'>
                 <li>About </li>
                 <li>Testimonal</li>
                 <li>News</li>

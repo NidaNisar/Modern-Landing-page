@@ -1,9 +1,14 @@
 import React from 'react'
-
+ import { useEffect } from 'react';
+ import { revealaboutText } from '../data/Data';
 const News = () => {
+  
+      useEffect(() => {
+          revealaboutText()
+        }, []);
   return (
     <div>
-         <div className='container mx-auto mt-20 mb-6 flex flex-col gap-7'>
+         <div className='  about--text container mx-auto mt-20 mb-6 flex flex-col gap-7'>
                 <div className='text-center'>
                     <h1 className=' text-3xl sm:text-5xl'>News</h1>
                 </div>
@@ -13,7 +18,7 @@ const News = () => {
             </div>
       <div className='container mx-auto mt-25 grid grid-cols-1   place-items-center gap-10 lg:grid lg:grid-cols-3 '>
         <div className=' max-w-[350px] border border-primary/20 rounded-[62px] p-5'>
-            <img src='/landingpics/news/01.png'/>
+            <img src=' /landingpics/news/01.png' className='new--img'/>
             <h1 className='mt-5'>Let's Get Solution For Building Construction Work</h1>
             <p className='mt-6'>22 June ,2024</p>
             <div className='flex justify-end mt-3'>
@@ -21,7 +26,7 @@ const News = () => {
             </div>
         </div>
         <div className=' max-w-[350px] border border-primary/20 rounded-[62px] p-5'>
-            <img src='/landingpics/news/01.png'/>
+            <img src='/landingpics/news/01.png'  className='new--img'/>
             <h1 className='mt-5'>Let's Get Solution For Building Construction Work</h1>
             <p className='mt-6'>22 June ,2024</p>
             <div className='flex justify-end mt-3'>
@@ -29,7 +34,7 @@ const News = () => {
             </div>
         </div>
         <div className=' max-w-[350px] border border-primary/20 rounded-[62px] p-5'>
-            <img src='/landingpics/news/01.png'/>
+            <img src='/landingpics/news/01.png '  className='new--img'/>
             <h1 className='mt-5'>Let's Get Solution For Building Construction Work</h1>
             <p className='mt-6'>22 June ,2024</p>
             <div className='flex justify-end mt-3'>

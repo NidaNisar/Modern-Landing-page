@@ -1,9 +1,14 @@
 import React from 'react'
-
+import { useEffect } from 'react';
+import { revealstepText } from '../data/Data'
+  
 const Steps = () => {
+    useEffect(() => {
+    revealstepText()
+  }, []);
   return (
     <div>
-             <div className='container mx-auto mt-25 xl:mx-auto flex flex-col lg:grid lg:grid-cols-3 gap-12 '>
+             <div className=' steps--step container mx-auto mt-25 xl:mx-auto flex flex-col lg:grid lg:grid-cols-3 gap-12 '>
                 <div className=' flex flex-col gap-4' >
                     <div>
                         <i className='ri-compasses-2-line text-5xl flex justify-center text-accentt'></i>
