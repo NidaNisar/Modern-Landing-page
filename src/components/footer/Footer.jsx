@@ -29,18 +29,18 @@ const Footer = () => {
                 <li>Contact</li>
             </ul>
           </div>
-           <div className='flex flex-col  items-center'>
+           <div className='flex flex-col  items-center gap-5' >
             <h3  >Services</h3>
-            <ul className=' flex flex-col  items-center'>
+            <ul className=' flex flex-col  items-center text-xl'>
                 <li>Kitchen </li>
                 <li>Living Area </li>
                 <li>Bathroom</li>
                 <li>Bedroom</li>
             </ul>
           </div>
-          <div className='flex flex-col  items-center'>
+          <div className='flex flex-col  items-center gap-5'>
             <h3>Contact</h3>
-            <ul className='flex flex-col  items-center'>
+            <ul className='flex flex-col  items-center text-xl'>
                 <li>Let's get in touch</li>
                 <li>+925679076467</li>
                 <li>Mon to Sat- 11:00 to 8:00</li>
